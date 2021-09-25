@@ -90,7 +90,7 @@ int main(int argc, char** argv) {
     WINDOW *win;
     int c = -1;
 
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "ru_RU.UTF-8");
     initscr();
     noecho();
     cbreak();
