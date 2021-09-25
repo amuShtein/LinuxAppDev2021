@@ -107,11 +107,11 @@ int main(int argc, char** argv) {
     int h = LINES - 2*DX - 2 - 1, w = COLS - 2*DX - 2;
 
     const char *info;
-    if(strlen(LONG_INFO) <= w) {
+    if(strlen(LONG_INFO) <= w - 3) {
         info = LONG_INFO;
-    } else if(strlen(INFO) <= w) {
+    } else if(strlen(INFO) <= w - 3) {
         info = INFO;
-    } else if(strlen(SHORT_INFO) <= w) {
+    } else if(strlen(SHORT_INFO) <= w - 3) {
         info = SHORT_INFO;
     } else {
         info = NO_INFO;
@@ -212,9 +212,9 @@ int main(int argc, char** argv) {
         wrefresh(win);
         move(1, 6);
         printw("%d\n", cnt);
-        move(LINES - DX - 2, DX + 1);
+        move(LINES - DX - 2 + 1, DX + 2);
         printw(info);
-        move(LINES - DX - 2, DX + 1);
+        move(LINES - DX - 2 + 1, DX + 2);
         refresh();
         cnt++;
 skip_refresh:
