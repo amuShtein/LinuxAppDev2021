@@ -196,7 +196,7 @@ int main(int argc, char** argv) {
         for(int i = 0; (i < h) && tmp; i++) {
             int len = tmp->len;
             wprintw(win, " ");
-            for(int j = line_start; j < w && j < len; j++) {
+            for(int j = line_start; j - line_start < w && j < len; j++) {
                 wprintw(win, "%c", (tmp->line)[j]);
             }
             if(max_start < len) {
