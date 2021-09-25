@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "locale.h": "c",
-        "ncurses.h": "c"
-    }
-}
