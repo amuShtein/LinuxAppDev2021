@@ -1,0 +1,14 @@
+b main
+
+run -100 100 3
+advance 31
+n
+
+watch i
+    command 3
+    if i>= 28 && i<= 35
+        printf "@@@ start = %i, end = %i, step = %i, elem = %i\n",start, end, step, i
+    end
+    c
+end
+c

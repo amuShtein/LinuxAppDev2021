@@ -1,0 +1,673 @@
+GNU gdb (Ubuntu 10.1-2ubuntu2) 10.1.90.20210411-git
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./range...
+(gdb) Breakpoint 1 at 0x11bc: file main.c, line 3.
+(gdb) Note: breakpoint 1 also set at pc 0x11bc.
+Breakpoint 2 at 0x11bc: file main.c, line 3.
+(gdb) Starting program: /home/xnpst/CLionProjects/LinuxAppDev2021/05_Debugging/range 12 101 grepmarker
+
+Breakpoint 1, main (argc=4, argv=0x7fffffffdf28) at main.c:3
+3	int main(int argc, char **argv) {
+(gdb) main (argc=4, argv=0x7fffffffdf28) at main.c:31
+31	    int i = start - step;
+(gdb) 33	    while(i + step < end) {
+(gdb) 34	        i += step;
+(gdb) Hardware watchpoint 3: i
+(gdb) > > >>>(gdb) Continuing.
+
+Hardware watchpoint 3: i
+
+Old value = 11
+New value = 12
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 12
+New value = 13
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 13
+New value = 14
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 14
+New value = 15
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 15
+New value = 16
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 16
+New value = 17
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 17
+New value = 18
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 18
+New value = 19
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 19
+New value = 20
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 20
+New value = 21
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 21
+New value = 22
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 22
+New value = 23
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 23
+New value = 24
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 24
+New value = 25
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 25
+New value = 26
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 26
+New value = 27
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 27
+New value = 28
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 28
+
+Hardware watchpoint 3: i
+
+Old value = 28
+New value = 29
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 29
+
+Hardware watchpoint 3: i
+
+Old value = 29
+New value = 30
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 30
+
+Hardware watchpoint 3: i
+
+Old value = 30
+New value = 31
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 31
+
+Hardware watchpoint 3: i
+
+Old value = 31
+New value = 32
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 32
+
+Hardware watchpoint 3: i
+
+Old value = 32
+New value = 33
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 33
+
+Hardware watchpoint 3: i
+
+Old value = 33
+New value = 34
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 34
+
+Hardware watchpoint 3: i
+
+Old value = 34
+New value = 35
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+grepmarker start = 12, end = 101, step = 1, elem = 35
+
+Hardware watchpoint 3: i
+
+Old value = 35
+New value = 36
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 36
+New value = 37
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 37
+New value = 38
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 38
+New value = 39
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 39
+New value = 40
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 40
+New value = 41
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 41
+New value = 42
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 42
+New value = 43
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 43
+New value = 44
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 44
+New value = 45
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 45
+New value = 46
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 46
+New value = 47
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 47
+New value = 48
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 48
+New value = 49
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 49
+New value = 50
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 50
+New value = 51
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 51
+New value = 52
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 52
+New value = 53
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 53
+New value = 54
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 54
+New value = 55
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 55
+New value = 56
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 56
+New value = 57
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 57
+New value = 58
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 58
+New value = 59
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 59
+New value = 60
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 60
+New value = 61
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 61
+New value = 62
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 62
+New value = 63
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 63
+New value = 64
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 64
+New value = 65
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 65
+New value = 66
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 66
+New value = 67
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 67
+New value = 68
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 68
+New value = 69
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 69
+New value = 70
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 70
+New value = 71
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 71
+New value = 72
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 72
+New value = 73
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 73
+New value = 74
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 74
+New value = 75
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 75
+New value = 76
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 76
+New value = 77
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 77
+New value = 78
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 78
+New value = 79
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 79
+New value = 80
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 80
+New value = 81
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 81
+New value = 82
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 82
+New value = 83
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 83
+New value = 84
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 84
+New value = 85
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 85
+New value = 86
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 86
+New value = 87
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 87
+New value = 88
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 88
+New value = 89
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 89
+New value = 90
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 90
+New value = 91
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 91
+New value = 92
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 92
+New value = 93
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 93
+New value = 94
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 94
+New value = 95
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 95
+New value = 96
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 96
+New value = 97
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 97
+New value = 98
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 98
+New value = 99
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Hardware watchpoint 3: i
+
+Old value = 99
+New value = 100
+main (argc=4, argv=0x7fffffffdf28) at main.c:36
+36	        printf("%d\n", i);
+
+Watchpoint 3 deleted because the program has left the block in
+which its expression is valid.
+0x00007ffff7dea565 in __libc_start_main (main=0x5555555551a9 <main>, argc=4, 
+    argv=0x7fffffffdf28, init=<optimized out>, fini=<optimized out>, 
+    rtld_fini=<optimized out>, stack_end=0x7fffffffdf18)
+    at ../csu/libc-start.c:332
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 27212] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

@@ -1,0 +1,4 @@
+mkdir tmp
+gdb < scripts/debug1 --args ./range 2>/dev/null | grep @@@ > tmp/test1
+gdb < scripts/debug2 --args ./range 2>/dev/null | grep @@@ > tmp/test2
+output=`cmp tmp/test1 examples/test1`
