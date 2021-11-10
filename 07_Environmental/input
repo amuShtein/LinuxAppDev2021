@@ -1,0 +1,4 @@
+cmd1 arg1 endarg
+cmd2 endarg
+cmd3
+cmd4 arg1 arg2 arg3 arg4 endarg
