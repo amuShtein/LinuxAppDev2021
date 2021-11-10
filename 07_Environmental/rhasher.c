@@ -51,11 +51,11 @@ int main(int argc, char** argv) {
             continue;
         }
 
-
+        // printf("method: %s\n", rhash_get_name(method));
         int appearance = islower(cmd[0]) ? RHPR_BASE64 : RHPR_HEX;
 
         char* arg = (char*)strtok(NULL, " \n");
-        // printf("scanned arg = '%s':\n", arg);
+        // printf("scanned arg = '%s':\n", arg+1);
 
         int res;
         if(arg[0] != '\"') {

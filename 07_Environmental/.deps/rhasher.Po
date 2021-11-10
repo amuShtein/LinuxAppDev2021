@@ -27,7 +27,17 @@ rhasher.o: rhasher.c /usr/include/stdc-predef.h config.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /usr/include/readline/readline.h /usr/include/readline/rlstdc.h \
+ /usr/include/readline/rltypedefs.h /usr/include/readline/keymaps.h \
+ /usr/include/readline/chardefs.h /usr/include/ctype.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/readline/tilde.h /usr/include/readline/history.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
 /usr/include/stdc-predef.h:
 config.h:
 /usr/include/stdlib.h:
@@ -62,3 +72,18 @@ config.h:
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
+/usr/include/readline/readline.h:
+/usr/include/readline/rlstdc.h:
+/usr/include/readline/rltypedefs.h:
+/usr/include/readline/keymaps.h:
+/usr/include/readline/chardefs.h:
+/usr/include/ctype.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/readline/tilde.h:
+/usr/include/readline/history.h:
+/usr/include/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
